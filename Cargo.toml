@@ -1,0 +1,10 @@
+[package]
+name = "ed2i"
+version = "0.1.0"
+authors = ["PhdTrollSlayer <rodrigomauricio@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+xml-rs = "0.8.0"
+reqwest = "0.9.16"
+rocket = "0.4.1"
