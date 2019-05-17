@@ -250,15 +250,6 @@ version = "0.4.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "ed2i"
-version = "0.1.0"
-dependencies = [
- "reqwest 0.9.16 (registry+https://github.com/rust-lang/crates.io-index)",
- "rocket 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "xml-rs 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "encoding_rs"
 version = "0.8.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1021,6 +1012,15 @@ dependencies = [
  "toml 0.4.10 (registry+https://github.com/rust-lang/crates.io-index)",
  "version_check 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "yansi 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rocket-tempo"
+version = "0.1.0"
+dependencies = [
+ "reqwest 0.9.16 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rocket 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "xml-rs 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

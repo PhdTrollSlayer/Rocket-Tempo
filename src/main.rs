@@ -39,7 +39,8 @@ fn index() -> content::Html<String> {
                         <input type="submit" value="Pesquisar">
                     </form>
                 </body>
-            </html>"#))
+            </html>"#)
+    )
  
 }
 
@@ -130,7 +131,8 @@ fn previsao(id: &RawStr) -> content::Html<String> {
                             <th>Mínima</th>
                             <th>IUV</th>
                         </tr>
-                    {}</table>
+                        {}
+                    </table>
                 </body>
             </html>"#, nome, uf, table)
     )
@@ -196,7 +198,9 @@ fn pesquisa(nome: &RawStr) -> content::Html<String> {
                 </head>
                 <body>
                     <h1>Resultado da Pesquisa</h1>
-                    <ul>{}</ul>
+                    <ul>
+                        {}
+                    </ul>
                 </body>
             </html>"#, list)
     )
